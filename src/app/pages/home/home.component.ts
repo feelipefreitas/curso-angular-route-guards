@@ -28,4 +28,8 @@ export class HomeComponent implements OnInit, CanDeactivateComp {
   logoff() {
     this._router.navigate(['/login']);
   }
+
+  posts() {
+    this._router.navigate(['/posts']);
+  }
 }
