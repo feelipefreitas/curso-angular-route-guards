@@ -9,13 +9,15 @@ import { LoginComponent } from './pages/login/login.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { PostsComponent } from './pages/posts/posts.component';
+import { PostComponent } from './pages/post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    PostsComponent
+    PostsComponent,
+    PostComponent
   ],
   imports: [
     FormsModule,
